@@ -30,7 +30,7 @@ body {
   height: 280px;
   display: flex;
   flex-direction: row;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .left {
@@ -42,7 +42,7 @@ body {
 
 
 .left > img {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .right {
@@ -83,7 +83,6 @@ body {
 }
 
 
-
 .profile-info{
   display: flex;
   flex-direction: column;
@@ -116,4 +115,15 @@ body {
 
 .share-button > i {
   color: var(--Desaturated-Dark-Blue);
+}
+
+.bubble {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-color: var(--Very-Dark-Grayish-Blue);
+  display: flex;
+  justify-content: space-around;
+
+  
 }
