@@ -114,6 +114,6 @@ body {
   align-items: center;
 }
 
-.share-button > img{
-  width: 50%;
+.share-button > i {
+  color: var(--Desaturated-Dark-Blue);
 }
