@@ -101,3 +101,19 @@ body {
   color : var(--Desaturated-Dark-Blue);
   margin: 0;
 }
+
+.share-button {
+  margin-left: 160px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--Light-Grayish-Blue);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-button > img{
+  width: 50%;
+}
