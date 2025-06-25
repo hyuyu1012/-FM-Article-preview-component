@@ -5,8 +5,37 @@
 --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
 --Grayish-Blue: hsl(212, 23%, 69%);
 --Light-Grayish-Blue: hsl(210, 46%, 95%);
+--white : #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Manrope;
 }
 
 html, body {
+  min-height: 100vh;
+}
 
+body {
+  background-color: var(--Light-Grayish-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+
+}
+
+.right {
+  
 }
