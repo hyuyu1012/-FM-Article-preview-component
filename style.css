@@ -138,11 +138,24 @@ body {
   
 }
 
-.icon-container {}
+.bubble-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid var(--Very-Dark-Grayish-Blue);
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+
+.icon-container {}
 .bubble > i {
   color: white;
   width: 30px;
-
-  /* margin-right: ; */
 }
